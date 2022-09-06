@@ -1421,7 +1421,7 @@ python-versions = "*"
 
 [[package]]
 name = "natsort"
-version = "8.0.0"
+version = "8.2.0"
 description = "Simple yet flexible natural sorting in Python."
 category = "main"
 optional = false
@@ -2926,7 +2926,7 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=6)", "pytest-black (>=
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9.7 || >3.9.7,<3.11"
-content-hash = "2ae47edcd2357e1c9969ac7afa2daebb7823af35879465271457f0a065b5600a"
+content-hash = "868d1aad5eb2430e7e2e001d0f91df49f8007ec784c7769aa98f1f1c5cbd3630"
 
 [metadata.files]
 aiobotocore = [
@@ -4057,8 +4057,8 @@ mypy-extensions = [
     {file = "mypy_extensions-0.4.3.tar.gz", hash = "sha256:2d82818f5bb3e369420cb3c4060a7970edba416647068eb4c5343488a6c604a8"},
 ]
 natsort = [
-    {file = "natsort-8.0.0-py3-none-any.whl", hash = "sha256:5f5f4ea471d655b1b1611eef1cf0c6d3397095d2d3a1aab7098d6a50e4c3901a"},
-    {file = "natsort-8.0.0.tar.gz", hash = "sha256:a0a4fd71aee20a6d648da61e01180a63f7268e69983d0440bd3ad80ef1ba6981"},
+    {file = "natsort-8.2.0-py3-none-any.whl", hash = "sha256:04fe18fdd2b9e5957f19f687eb117f102ef8dde6b574764e536e91194bed4f5f"},
+    {file = "natsort-8.2.0.tar.gz", hash = "sha256:57f85b72c688b09e053cdac302dd5b5b53df5f73ae20b4874fcbffd8bf783d11"},
 ]
 nbclassic = [
     {file = "nbclassic-0.4.3-py3-none-any.whl", hash = "sha256:4b01076effdac53e775cd1b6a4e891663568b32621468e205b502a23b2921899"},
