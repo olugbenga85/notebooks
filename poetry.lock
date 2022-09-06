@@ -1400,8 +1400,8 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "mxnet"
-version = "1.6.0"
-description = "MXNet is an ultra-scalable deep learning framework. This version uses openblas."
+version = "1.9.1"
+description = "Apache MXNet is an ultra-scalable deep learning framework. This version uses openblas and MKLDNN."
 category = "main"
 optional = false
 python-versions = "*"
@@ -2926,7 +2926,7 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=6)", "pytest-black (>=
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9.7 || >3.9.7,<3.11"
-content-hash = "2ae47edcd2357e1c9969ac7afa2daebb7823af35879465271457f0a065b5600a"
+content-hash = "4b64df3d33090fc01fd6bb95dd7756c04f80ba03e53b72e4e16755a6293e9aea"
 
 [metadata.files]
 aiobotocore = [
@@ -4045,12 +4045,9 @@ murmurhash = [
     {file = "murmurhash-1.0.8.tar.gz", hash = "sha256:8bb03aad842837a64b0c1d2ed22b50eba85f9fa51476c8bc0a77c366a979f1f3"},
 ]
 mxnet = [
-    {file = "mxnet-1.6.0-cp35-cp35m-macosx_10_12_x86_64.whl", hash = "sha256:557db7609ba2cea18d57eb062d29a8e42258e1164392316ccd6f3741b58de5cb"},
-    {file = "mxnet-1.6.0-cp36-cp36m-macosx_10_12_x86_64.whl", hash = "sha256:7dc1f13c5934285bbb5b0fc112c9b4601d65786bf179a4b726c1164f074d24af"},
-    {file = "mxnet-1.6.0-cp37-cp37m-macosx_10_12_x86_64.whl", hash = "sha256:57222543d04dda608d9ba041d1a794abb4f4159490f9cd063715afd9e3818dd1"},
-    {file = "mxnet-1.6.0-cp38-cp38-macosx_10_12_x86_64.whl", hash = "sha256:d8e2b789bf2c3987447a1ab45e43e90ccee9b3acead115a036599558865c05c5"},
-    {file = "mxnet-1.6.0-py2.py3-none-any.whl", hash = "sha256:f18406c87a6dba2d1bc6b95dcab0a7e798079a392f85281143804ab897dec916"},
-    {file = "mxnet-1.6.0-py2.py3-none-win_amd64.whl", hash = "sha256:9f0abcabf6b1a3762ec092e4019821603955dadd9908ceb27ab02698186aa47f"},
+    {file = "mxnet-1.9.1-py3-none-macosx_10_13_x86_64.whl", hash = "sha256:73c045f65ad05fe9ca3c4202e10471703b57231f8ac8b05d973ec2ab362178fb"},
+    {file = "mxnet-1.9.1-py3-none-manylinux2014_aarch64.whl", hash = "sha256:5e51a0c05d99f8f1b3b5e7c02170be57af2e6edb3ad9af2cb9551ace3e22942c"},
+    {file = "mxnet-1.9.1-py3-none-manylinux2014_x86_64.whl", hash = "sha256:65d5dac162c87a14d138d888b54494d515036d9047ae804ff51f770bd02197a6"},
 ]
 mypy-extensions = [
     {file = "mypy_extensions-0.4.3-py2.py3-none-any.whl", hash = "sha256:090fedd75945a69ae91ce1303b5824f428daf5a028d2f6ab8a299250a846f15d"},
